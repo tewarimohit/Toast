@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+
+
+}
+
+.parent-container{
+    position: relative;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-content: center;
+align-items: center;
+
+padding: 40px;
+margin: 20px;
+
+}
+.toast{
+
+position: absolute;
+color: white;
+background-color: black;
+padding: 1rem;
+border-radius: .5rem;
+margin-top: 30rem;
+margin-right: 10rem;
+}
+.btn{
+    background-color: black; 
+    color: violet;  
+border: none;
+margin-left: 2rem;
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
